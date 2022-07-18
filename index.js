@@ -1,13 +1,6 @@
-function MainContent() {
-  return (
-    <h1>I'm learning React!</h1>
-  )
-}
+// This is what the react DOM is creating when we are building it out.
 
-
-ReactDOM.render(
-  <div>
-    <MainContent />
-  </div>,
-  document.getElementById('root')
-  )
+const h1 = document.createElement("h1")
+h1.textContent = "This is the way to program again"
+h1.className = "header"
+document.getElementById("root").append(h1)
