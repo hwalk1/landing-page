@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "React dependancies from CDN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwalk1/landing-page.git"
+  },
+  "author": "hwalk1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwalk1/landing-page/issues"
+  },
+  "homepage": "https://github.com/hwalk1/landing-page#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6"
+  }
+}
