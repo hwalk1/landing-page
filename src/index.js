@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 
 
-const navbar = (
-  <nav>
-    <h1>Hayden's Project Page!</h1>
+const page = (
+  <div>
+    <img src='./logo192.png' alt='React Logo' width='40px'></img>
+    <h1>Fun Facts About React</h1>
     <ul>
-      <li>Projects</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was first released in 2013</li>
+      <li>Was origionally created by Jordan Walke</li>
+      <li>Has well over 100k starts on Github</li>
+      <li>Is maintined by Meta</li>
+      <li>Powers 1000's of apps</li>
     </ul>
-  </nav>
+  </div>
 )
 
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(navbar)
+ReactDOM.createRoot(document.getElementById("root")).render(page)
