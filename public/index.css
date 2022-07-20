@@ -26,6 +26,8 @@ body {
   font-family: 'Anton', sans-serif;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer {
