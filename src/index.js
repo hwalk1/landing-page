@@ -1,19 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react"
+import ReactDOM from "react-dom/client"
+
+function Page() {
+
+  return (
+    <div>
+      <header>
+        <nav>
+          <img src="./logo192.png" alt="React Logo" width='40px' />
+        </nav>
+      </header>
+      <h1>Reasons I love React! </h1>
+      <ol>
+        <li>It's easy to use</li>
+        <li>It's declarative</li>
+        <li>It's a highly in demand skill</li>
+      </ol>
+      <footer>
+        <p>2022 Walker Development. All rights reserverd</p>
+      </footer>
+    </div>
+  );
+}
 
 
-const page = (
-  <div>
-    <img src='./logo192.png' alt='React Logo' width='40px'></img>
-    <h1>Fun Facts About React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was origionally created by Jordan Walke</li>
-      <li>Has well over 100k starts on Github</li>
-      <li>Is maintined by Meta</li>
-      <li>Powers 1000's of apps</li>
-    </ul>
-  </div>
-)
 
-ReactDOM.createRoot(document.getElementById("root")).render(page)
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Page />)
